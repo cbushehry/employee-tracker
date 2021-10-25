@@ -13,7 +13,7 @@ const Update = require('./lib/Update');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'cantimploras87=',
+    password: 'sqlMarshall716',
     database: 'employeeTracker_db'
   });
 
