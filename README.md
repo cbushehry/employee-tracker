@@ -14,6 +14,7 @@
   2. 'MySQL2'
   3. 'console.table'
 
+
 4. FEATURES
  1. View Employees / Roles / Departments
  2. Add Employees / Roles / Departments

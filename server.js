@@ -25,15 +25,6 @@ const connection = mysql.createConnection({
   });
 
   class RunApplication {
-    constructor () {
-        // *** N/A for this app. Could be used for the future. *** //
-  
-
-        console.clear();
-        console.log(this.appLogo)
-        
-      }
-  
       getInquirerOptions() {
   
             // Clear console.log
