@@ -28,14 +28,7 @@ const connection = mysql.createConnection({
     constructor () {
         // *** N/A for this app. Could be used for the future. *** //
   
-        this.appLogo = `
-        ╔═╗┌┬┐┌─┐┬  ┌─┐┬ ┬┌─┐┌─┐  ╔╦╗┬─┐┌─┐┌─┐┬┌─┌─┐┬─┐
-        ║╣ │││├─┘│  │ │└┬┘├┤ ├┤    ║ ├┬┘├─┤│  ├┴┐├┤ ├┬┘
-        ╚═╝┴ ┴┴  ┴─┘└─┘ ┴ └─┘└─┘   ╩ ┴└─┴ ┴└─┘┴ ┴└─┘┴└─
-                        ╔═╗╔═╗╔═╗                      
-                        ║ ║║ ║╠═╝                      
-                        ╚═╝╚═╝╩                              
-        \n`
+
         console.clear();
         console.log(this.appLogo)
         
